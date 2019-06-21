@@ -8,6 +8,7 @@ import VueResource from 'vue-resource'
 import 'element-ui/lib/theme-chalk/index.css'
 import 'element-ui/lib/theme-chalk/display.css'
 import locale from 'element-ui/lib/locale/lang/ro'
+import bootstrap from 'bootstrap'
 
 Vue.use(VueResource)
 Vue.use(ElementUI,{locale})
