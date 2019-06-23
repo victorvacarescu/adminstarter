@@ -1,10 +1,12 @@
 <template>
     <div>
-        Bine ai venit pe pagina de Login
-        <h2>{{msg}}</h2> 
+        <b-nav tabs>            
+            <b-nav-item disabled><b>Inapoi</b></b-nav-item>                         
+            <b-nav-item disabled>Counter 1/10</b-nav-item>
+        </b-nav>
 
-        <el-input placeholder="blaaa"></el-input>
-    </div>    
+            
+    </div> 
 </template>
 
 <script>

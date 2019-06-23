@@ -13,10 +13,11 @@
   },
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.24",
     "element-ui": "^2.9.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.15.0",
-    "vue": "^2.5.2",
+    "vue": "^2.6.10",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1"
   },

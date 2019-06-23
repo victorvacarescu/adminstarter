@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <!-- <img src="./assets/skyline.jpeg"> -->
-    <router-view/>
+    
+    <router-view/>    
   </div>
 </template>
 
 <script>
+//de unde randeaza router-view. Nu e importat nimic. Pagina e identica cu StartPage
 export default {
   name: 'App'
 }

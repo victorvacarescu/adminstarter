@@ -1,20 +1,15 @@
 <template>
-  <div class="hello">
+  <div class="hello">    
     <h1>{{ msg }}</h1>
     <ul>      
       <li>
-        <router-link tag="li" to="/newapp">
-          <a target="_blank">New App</a>
+        <router-link to="/newapp">
+          New App
         </router-link>                                    
-      </li>
+      </li>      
       <li>
-        <router-link tag="li" to="/login">
-            <a>Login</a>
-        </router-link>
-      </li>
-      <li>
-        <router-link tag='li' to='/users'>
-          <a target="_blank">Users</a>
+        <router-link to='/users'>
+          Users
         </router-link>
       </li>
     </ul>
@@ -22,8 +17,9 @@
 </template>
 
 <script>
+
 export default {
-  name: 'HelloWorld',
+  name: 'StartPage',
   data () {
     return {
       msg: 'Welcome'

@@ -1,5 +1,13 @@
 <template>
     <div>
+        <router-link to="/">
+          <a target="_blank">Inapoi</a>
+        </router-link>
+        <!-- temporar -->
+        <router-link to="/">
+          <b-button variant="primary">Inapoi</b-button> 
+        </router-link>
+        
         <el-container>
             <el-col :span='16' :offset='4'>                
                 <h1 tex> {{msg}} </h1>
