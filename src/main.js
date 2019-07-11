@@ -13,6 +13,11 @@ import bootstrap from 'bootstrap'
 Vue.use(VueResource)
 Vue.use(ElementUI,{locale})
 /* eslint-disable no-new */
+
+Vue.http.options.root = "http://codeigniter2.menut.ro/";
+Vue.http.headers.common['Token'] = "12345678"
+Vue.http.headers.common['AppCmd'] = '1'
+
 new Vue({
   el: '#app',
   router,
